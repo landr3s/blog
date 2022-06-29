@@ -45,9 +45,21 @@ body
     font-weight: normal;
 }
 
-#header button
+#header #btn_home
 {
     color: #000;
+    padding: 0;
+    text-align: center;
+    text-decoration: solid white;
+    display: inline-block;
+    font-size: 8px;
+    cursor: pointer;
+  
+}
+
+#header #btn_close
+{
+    color: red;
     padding: 0;
     text-align: center;
     text-decoration: solid white;
